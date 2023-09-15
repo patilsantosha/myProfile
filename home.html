@@ -21,6 +21,13 @@ ul{
 .contentmar{
     margin-bottom: 20px;
 }
+li::before{
+    content: "✅";
+    margin-right: 10px;
+}
+ul{
+    list-style-type: none;
+}
     </style>
 </head>
 <body>
@@ -29,7 +36,7 @@ ul{
         <h2 class="mycareer">Professional Summery</h2>
     
     
-    <ul type="square">
+    <ul >
         <li class="contentmar">Having 1 year of experience in development Single page Web Application using <span id="a1">Angular 8</span>, HTML, CSS3, Bootstrap, JavaScript, TypeScript</li>
         <li class="contentmar">Experience on working with version control system - GIT and GitHub</li>
         <li id="bgcolor" class="contentmar">Experience working with JIRA for user stories and bug tracking </li>
