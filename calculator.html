@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Volkhov&display=swap" rel="stylesheet">
+    <style>
+        .container{
+            border: 2px solid cadetblue;
+            display: inline-block;
+            height: 360px;
+            width: 400px;
+            font-family: 'Volkhov', serif;
+            /* background-color: blueviolet; */
+            box-shadow: 10px;
+            color: blueviolet;
+            
+            
+        }
+        .margin{
+            margin-left: 15px;
+            height: 25px;
+               
+        }
+        .cmargin{
+            margin-left: 45px;
+            font-family: 'Fugaz One', cursive;
+        }
+        #color{
+            background-color: green;
+            width: 350px;
+            margin-left: 20px;
+            height: 40px;
+            border-radius: 10px;
+
+        }
+        input[type="submit"]:hover{
+            color: purple;
+            background-color: blue;
+            
+        }
+        
+            </style>
+</head>
+<body>
+<form>
+    <div class="container">
+<h2 class="cmargin">DISCOUNT CALCULATOR</h2>
+<p class="margin">Enter the Bill amount and discount in percentage</p>
+<p><label for="" class="margin">Bill Amount</label></p>
+<input type="text" size="50" class="margin" name="ba">
+<p><label for="" class="margin">Discount Percentage</label></p>
+<input type="text" size="50" class="margin">
+<p><input type="submit" value="Calculate" class="margin" id="color"></p>
+<label for="" class="margin">Total Discount Amount</label>
+    </div>
+</form>
+</body>
+</html>
